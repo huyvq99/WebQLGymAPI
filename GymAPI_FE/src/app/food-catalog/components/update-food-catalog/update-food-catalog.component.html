@@ -1,0 +1,30 @@
+<h1 mat-dialog-title>Danh mục món ăn</h1>
+<div mat-dialog-content>
+
+  <mat-form-field *ngIf="false">
+    <mat-label>Khu vực</mat-label>
+    <mat-select [(ngModel)]="selectedArea" (selectionChange)="changeArea($event.value)">
+      <mat-option *ngFor="let area of areas" [value]="area.id">
+        {{area.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field *ngIf="false">
+    <mat-label>Nhà hàng</mat-label>
+    <mat-select [(ngModel)]="selectedRestaurant">
+      <mat-option *ngFor="let restaurant of restaurants" [value]="restaurant.id">
+        {{restaurant.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Tên danh mục</mat-label>
+    <input matInput [(ngModel)]="foodCatalog.name">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="true">Hủy bỏ</button>
+  <button mat-button cdkFocusInitial (click)="updateFoodCatalog()">Xác nhận</button>
+</div>

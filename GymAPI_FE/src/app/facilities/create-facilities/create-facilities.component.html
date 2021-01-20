@@ -1,0 +1,23 @@
+<h1 mat-dialog-title>Danh mục cơ sở</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Tên </mat-label>
+    <input matInput [(ngModel)]="facility.facilityName">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Địa chỉ</mat-label>
+    <input matInput [(ngModel)]="facility.address">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="facility.dateCreated">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="facility.dateModified">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="true">Hủy bỏ</button>
+  <button mat-button cdkFocusInitial (click)="createFacility()">Xác nhận</button>
+</div>

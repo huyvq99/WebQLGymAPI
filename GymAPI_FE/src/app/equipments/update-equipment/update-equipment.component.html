@@ -1,0 +1,27 @@
+<h1 mat-dialog-title>Danh mục món ăn</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Tên </mat-label>
+    <input matInput [(ngModel)]="Equipments.name">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Số lượng </mat-label>
+    <input matInput [(ngModel)]="Equipments.amount">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Mô tả</mat-label>
+    <input matInput [(ngModel)]="Equipments.description">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <!-- cái nào  -->
+    <input matInput [(ngModel)]="Equipments.dateCreated">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="Equipments.dateModified">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="true">Hủy bỏ</button>
+  <button mat-button cdkFocusInitial (click)="updateEquipmentCatalog()">Xác nhận</button>

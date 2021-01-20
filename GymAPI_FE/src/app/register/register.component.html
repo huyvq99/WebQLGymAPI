@@ -1,0 +1,50 @@
+<div class="login-wrapper" fxLayout="row" fxLayoutAlign="center center">
+
+  <mat-card class="box">
+    <mat-card-header>
+      <mat-card-title>Register</mat-card-title>
+    </mat-card-header>
+
+    <form class="example-form" [formGroup]="registerForm" (ngSubmit)="register()">
+      <mat-card-content>
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Tài khoản" formControlName="userName" required>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your password</mat-label>
+          <input matInput placeholder="Mật khẩu" formControlName="password" required [type]="hide ? 'password' : 'text'">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+        <!-- <mat-form-field class="example-full-width">
+          <input matInput placeholder="Mật khẩu" formControlName="password" required>
+        </mat-form-field> -->
+
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your password</mat-label>
+          <input matInput placeholder="Xác nhận mật khẩu" required formControlName="confirmPassword" required [type]="hide ? 'password' : 'text'">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+        <!-- <mat-form-field class="example-full-width">
+          <input matInput placeholder="Xác nhận mật khẩu" required formControlName="confirmPassword">
+        </mat-form-field> -->
+
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Email" formControlName="email" required>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Số điện thoại" formControlName="phone" required>
+        </mat-form-field>
+
+      </mat-card-content>
+      <button mat-stroked-button color="accent" type="submit" class="btn-block">Confirm</button>
+    </form>
+  </mat-card>
+
+
+</div>

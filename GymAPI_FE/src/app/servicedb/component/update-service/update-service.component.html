@@ -1,0 +1,31 @@
+<h1 mat-dialog-title>Thêm mới dich vụ</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Tên </mat-label>
+    <input matInput [(ngModel)]="serViceDb.serviceName">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Mô tả</mat-label>
+    <input matInput [(ngModel)]="serViceDb.description">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Giá tiền</mat-label>
+    <input matInput [(ngModel)]="serViceDb.money">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Người tạo</mat-label>
+    <input matInput [(ngModel)]="serViceDb.createdId">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="serViceDb.dateCreated">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="serViceDb.dateModified">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="true">Hủy bỏ</button>
+  <button mat-button cdkFocusInitial (click)="updateServiceDb()">Xác nhận</button>
+</div>

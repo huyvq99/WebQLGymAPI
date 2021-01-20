@@ -1,0 +1,51 @@
+<!-- {{perssions | json}} -->
+<button mat-button style="background-color: green; color: whitesmoke; float: left;  margin: 10px;"
+  (click)="openCreateCardTypeDialog()" *ngIf="currentPermission.Create">
+  <mat-icon>edit</mat-icon>
+  Thêm mới
+  </button>
+<div>
+  <mat-form-field class="example-form-field">
+    <mat-label>nhập từ khóa</mat-label>
+    <input matInput type="text" [(ngModel)]="search">
+
+  </mat-form-field>
+
+      <button mat-raised-button color="primary"  (click)="getCardTypeByName()">tìm kiếm</button>
+</div> 
+
+<table mat-table [dataSource]="dataSource" style="width: 100vw;">
+
+  <ng-container matColumnDef="index">
+    <th mat-header-cell *matHeaderCellDef> STT </th>
+    <td mat-cell *matCellDef="let element; let i = index"> {{ i + 1 }} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="nameType">
+    <th mat-header-cell *matHeaderCellDef> Tên danh mục </th>
+    <td mat-cell *matCellDef="let element"> {{ element.nameType }} </td>
+  </ng-container>
+  <ng-container matColumnDef="description">
+    <th mat-header-cell *matHeaderCellDef> Tên danh mục </th>
+    <td mat-cell *matCellDef="let element"> {{ element.description}} </td>
+  </ng-container>
+
+  <ng-container matColumnDef="dateCreated">
+    <th mat-header-cell *matHeaderCellDef> Ngày tạo </th>
+    <td mat-cell *matCellDef="let element"> {{ element.dateCreated | date: 'dd/MM/yyyy'}} </td>
+  </ng-container>
+  <ng-container matColumnDef="controls">
+    <th mat-header-cell *matHeaderCellDef> </th>
+    <td mat-cell *matCellDef="let element">
+      <button mat-button *ngIf="currentPermission.Update" (click)="openUpdateCardTypeDialog(element)">
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button mat-button *ngIf="currentPermission.Delete" (click)="deleteCardType(element.id)">
+        <mat-icon>close</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

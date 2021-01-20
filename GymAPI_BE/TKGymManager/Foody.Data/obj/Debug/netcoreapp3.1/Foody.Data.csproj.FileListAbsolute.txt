@@ -1,0 +1,12 @@
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\bin\Debug\netcoreapp3.1\Foody.Data.deps.json
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\bin\Debug\netcoreapp3.1\Foody.Data.dll
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\bin\Debug\netcoreapp3.1\Foody.Data.pdb
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\bin\Debug\netcoreapp3.1\Foody.Infrastructure.dll
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\bin\Debug\netcoreapp3.1\Foody.Infrastructure.pdb
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.csprojAssemblyReference.cache
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.AssemblyInfoInputs.cache
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.AssemblyInfo.cs
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.csproj.CoreCompileInputs.cache
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.csproj.CopyComplete
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.dll
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.pdb

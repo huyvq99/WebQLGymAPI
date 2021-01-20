@@ -1,0 +1,17 @@
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\bin\Debug\netcoreapp3.1\Foody.Data.EF.deps.json
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\bin\Debug\netcoreapp3.1\Foody.Data.EF.runtimeconfig.json
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\bin\Debug\netcoreapp3.1\Foody.Data.EF.runtimeconfig.dev.json
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\bin\Debug\netcoreapp3.1\Foody.Data.EF.dll
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\bin\Debug\netcoreapp3.1\Foody.Data.EF.pdb
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\bin\Debug\netcoreapp3.1\Foody.Data.dll
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\bin\Debug\netcoreapp3.1\Foody.Infrastructure.dll
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\bin\Debug\netcoreapp3.1\Foody.Data.pdb
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\bin\Debug\netcoreapp3.1\Foody.Infrastructure.pdb
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\obj\Debug\netcoreapp3.1\Foody.Data.EF.csprojAssemblyReference.cache
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\obj\Debug\netcoreapp3.1\Foody.Data.EF.AssemblyInfoInputs.cache
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\obj\Debug\netcoreapp3.1\Foody.Data.EF.AssemblyInfo.cs
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\obj\Debug\netcoreapp3.1\Foody.Data.EF.csproj.CoreCompileInputs.cache
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\obj\Debug\netcoreapp3.1\Foody.Data.EF.csproj.CopyComplete
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\obj\Debug\netcoreapp3.1\Foody.Data.EF.dll
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\obj\Debug\netcoreapp3.1\Foody.Data.EF.pdb
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Data.EF\obj\Debug\netcoreapp3.1\Foody.Data.EF.genruntimeconfig.cache

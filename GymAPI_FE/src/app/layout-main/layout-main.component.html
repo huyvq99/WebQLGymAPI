@@ -1,0 +1,35 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>TKGym-Manager</span>
+  <span class="head-toolbar-spacer"></span>
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>account_circle</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>
+      <mat-icon>contact_page</mat-icon>
+      <span>Thông tin cá nhân</span>
+    </button>
+    <button mat-menu-item>
+      <mat-icon>settings</mat-icon>
+      <span>Cài đặt riêng</span>
+    </button>
+    <button mat-menu-item (click)="logout()">
+      <mat-icon>forward</mat-icon>
+      <span>Đăng xuất</span>
+    </button>
+  </mat-menu>
+</mat-toolbar>
+
+<mat-drawer-container class="example-container" hasBackdrop="false">
+  <mat-drawer #drawer mode="push" style="width: 20vw;">
+    <ng-material-multilevel-menu [configuration]='config' [items]='appitems'
+      [expandCollapseStatus]="expandCollapseStatus">
+    </ng-material-multilevel-menu>
+  </mat-drawer>
+  <mat-drawer-content style="width: 100%;">
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

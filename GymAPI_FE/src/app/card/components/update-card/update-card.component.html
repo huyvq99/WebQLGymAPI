@@ -1,0 +1,50 @@
+<h1 mat-dialog-title>Danh mục món ăn</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Mã </mat-label>
+    <input matInput [(ngModel)]="card.code">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Mã loại thẻ</mat-label>
+    <input matInput [(ngModel)]="card.cardTypeId">  
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Mã người dùng</mat-label>
+    <input matInput [(ngModel)]="card.accountId">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Mã cơ sở</mat-label>
+    <input matInput [(ngModel)]="card.facilityId">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Mã dịch vụ</mat-label>
+    <input matInput [(ngModel)]="card.serviceId">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Tên cơ sở</mat-label>
+    <input matInput [(ngModel)]="card.facilityName">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Giá</mat-label>
+    <input matInput [(ngModel)]="card.price">
+  </mat-form-field>
+    <mat-form-field>
+      <mat-label>Số ngày</mat-label>
+      <input matInput [(ngModel)]="card.numOfDay">
+    </mat-form-field> 
+    <mat-form-field>
+        <mat-label>Chú ý</mat-label>
+        <input matInput [(ngModel)]="card.note">
+      </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="card.dateCreated">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="card.dateModified">
+  </mat-form-field>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="true">Hủy bỏ</button>
+  <button mat-button cdkFocusInitial (click)="updateCard()">Xác nhận</button>
+</div>

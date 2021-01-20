@@ -1,0 +1,313 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{009955DE-D706-443D-8C4B-FC51E78DA51E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TKGymManager.SEO</RootNamespace>
+    <AssemblyName>TKGymManager.SEO</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44361</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UI\assets\css\style.css" />
+    <Content Include="UI\assets\images\dashboard\circle.png" />
+    <Content Include="UI\assets\images\dashboard\circle.svg" />
+    <Content Include="UI\assets\images\dashboard\img_1.jpg" />
+    <Content Include="UI\assets\images\dashboard\img_2.jpg" />
+    <Content Include="UI\assets\images\dashboard\img_3.jpg" />
+    <Content Include="UI\assets\images\dashboard\img_4.jpg" />
+    <Content Include="UI\assets\images\faces-clipart\pic-1.png" />
+    <Content Include="UI\assets\images\faces-clipart\pic-2.png" />
+    <Content Include="UI\assets\images\faces-clipart\pic-3.png" />
+    <Content Include="UI\assets\images\faces-clipart\pic-4.png" />
+    <Content Include="UI\assets\images\faces\face1.jpg" />
+    <Content Include="UI\assets\images\faces\face10.jpg" />
+    <Content Include="UI\assets\images\faces\face11.jpg" />
+    <Content Include="UI\assets\images\faces\face12.jpg" />
+    <Content Include="UI\assets\images\faces\face13.jpg" />
+    <Content Include="UI\assets\images\faces\face14.jpg" />
+    <Content Include="UI\assets\images\faces\face15.jpg" />
+    <Content Include="UI\assets\images\faces\face16.jpg" />
+    <Content Include="UI\assets\images\faces\face17.jpg" />
+    <Content Include="UI\assets\images\faces\face18.jpg" />
+    <Content Include="UI\assets\images\faces\face19.jpg" />
+    <Content Include="UI\assets\images\faces\face2.jpg" />
+    <Content Include="UI\assets\images\faces\face20.jpg" />
+    <Content Include="UI\assets\images\faces\face21.jpg" />
+    <Content Include="UI\assets\images\faces\face22.jpg" />
+    <Content Include="UI\assets\images\faces\face23.jpg" />
+    <Content Include="UI\assets\images\faces\face24.jpg" />
+    <Content Include="UI\assets\images\faces\face25.jpg" />
+    <Content Include="UI\assets\images\faces\face26.jpg" />
+    <Content Include="UI\assets\images\faces\face27.jpg" />
+    <Content Include="UI\assets\images\faces\face3.jpg" />
+    <Content Include="UI\assets\images\faces\face4.jpg" />
+    <Content Include="UI\assets\images\faces\face5.jpg" />
+    <Content Include="UI\assets\images\faces\face6.jpg" />
+    <Content Include="UI\assets\images\faces\face7.jpg" />
+    <Content Include="UI\assets\images\faces\face8.jpg" />
+    <Content Include="UI\assets\images\faces\face9.jpg" />
+    <Content Include="UI\assets\images\faces\Noneface.png" />
+    <Content Include="UI\assets\images\favicon.png" />
+    <Content Include="UI\assets\images\logo-mini.svg" />
+    <Content Include="UI\assets\images\LogoTK.png" />
+    <Content Include="UI\assets\images\sprites\blue.png" />
+    <Content Include="UI\assets\images\sprites\dark.png" />
+    <Content Include="UI\assets\images\sprites\flag.png" />
+    <Content Include="UI\assets\images\sprites\green.png" />
+    <Content Include="UI\assets\images\sprites\jsgrid-icons.png" />
+    <Content Include="UI\assets\images\sprites\red.png" />
+    <Content Include="UI\assets\images\sprites\yellow.png" />
+    <Content Include="UI\assets\js\chart.js" />
+    <Content Include="UI\assets\js\dashboard.js" />
+    <Content Include="UI\assets\js\file-upload.js" />
+    <Content Include="UI\assets\js\hoverable-collapse.js" />
+    <Content Include="UI\assets\js\misc.js" />
+    <Content Include="UI\assets\js\off-canvas.js" />
+    <Content Include="UI\assets\js\todo.js" />
+    <Content Include="UI\assets\js\todolist.js" />
+    <Content Include="UI\assets\vendors\chart.js\Chart.min.js" />
+    <Content Include="UI\assets\vendors\css\vendor.bundle.base.css" />
+    <Content Include="UI\assets\vendors\js\vendor.bundle.base.js" />
+    <Content Include="UI\assets\vendors\mdi\css\materialdesignicons.min.css" />
+    <Content Include="UI\css\animate.min.css" />
+    <Content Include="UI\css\bootstrap.min.css" />
+    <Content Include="UI\css\flexslider.css" />
+    <Content Include="UI\css\font-icon.css" />
+    <Content Include="UI\css\jquery.fancybox.css" />
+    <Content Include="UI\css\main.css" />
+    <Content Include="UI\css\responsive.css" />
+    <Content Include="UI\fonts\elegant-theme-line.svg" />
+    <Content Include="UI\fonts\flexslider-icon.svg" />
+    <Content Include="UI\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="UI\gulp-tasks\inject.js" />
+    <Content Include="UI\gulp-tasks\serve.js" />
+    <Content Include="UI\gulp-tasks\vendors.js" />
+    <Content Include="UI\images\banner.jpg" />
+    <Content Include="UI\images\blank.gif" />
+    <Content Include="UI\images\fancybox_loading%402x.gif" />
+    <Content Include="UI\images\fancybox_loading.gif" />
+    <Content Include="UI\images\fancybox_overlay.png" />
+    <Content Include="UI\images\fancybox_sprite%402x.png" />
+    <Content Include="UI\images\fancybox_sprite.png" />
+    <Content Include="UI\images\portfolio\01.jpg" />
+    <Content Include="UI\images\portfolio\02.jpg" />
+    <Content Include="UI\images\portfolio\03.jpg" />
+    <Content Include="UI\images\portfolio\04.jpg" />
+    <Content Include="UI\images\portfolio\05.jpg" />
+    <Content Include="UI\images\portfolio\06.jpg" />
+    <Content Include="UI\images\portfolio\07.jpg" />
+    <Content Include="UI\images\portfolio\08.jpg" />
+    <Content Include="UI\images\portfolio\09.jpg" />
+    <Content Include="UI\images\team-1.jpg" />
+    <Content Include="UI\images\team-2.jpg" />
+    <Content Include="UI\images\team-3.jpg" />
+    <Content Include="UI\images\team-4.jpg" />
+    <Content Include="UI\index.html" />
+    <Content Include="UI\js\bootstrap.min.js" />
+    <Content Include="UI\js\jquery.contact.js" />
+    <Content Include="UI\js\jquery.fancybox.pack.js" />
+    <Content Include="UI\js\jquery.flexslider-min.js" />
+    <Content Include="UI\js\jquery.min.js" />
+    <Content Include="UI\js\main.js" />
+    <Content Include="UI\js\modernizr.js" />
+    <Content Include="UI\js\retina.min.js" />
+    <Content Include="UI\pages\charts\chartjs.html" />
+    <Content Include="UI\pages\forms\basic_elements.html" />
+    <Content Include="UI\pages\icons\mdi.html" />
+    <Content Include="UI\pages\index.html" />
+    <Content Include="UI\pages\samples\blank-page.html" />
+    <Content Include="UI\pages\samples\error-404.html" />
+    <Content Include="UI\pages\samples\error-500.html" />
+    <Content Include="UI\pages\samples\login.html" />
+    <Content Include="UI\pages\samples\register.html" />
+    <Content Include="UI\pages\tables\basic-table.html" />
+    <Content Include="UI\pages\ui-features\buttons.html" />
+    <Content Include="UI\pages\ui-features\typography.html" />
+    <Content Include="UI\screenshot.jpg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="UI\assets\css\style.css.map" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Bold.eot" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Bold.ttf" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Bold.woff" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Bold.woff2" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Light.eot" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Light.ttf" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Light.woff" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Light.woff2" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Medium.eot" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Medium.ttf" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Medium.woff" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Medium.woff2" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Regular.eot" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Regular.ttf" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Regular.woff" />
+    <Content Include="UI\assets\fonts\Ubuntu\Ubuntu-Regular.woff2" />
+    <Content Include="UI\assets\scss\components\_badges.scss" />
+    <Content Include="UI\assets\scss\components\_bootstrap-progress.scss" />
+    <Content Include="UI\assets\scss\components\_breadcrumbs.scss" />
+    <Content Include="UI\assets\scss\components\_buttons.scss" />
+    <Content Include="UI\assets\scss\components\_cards.scss" />
+    <Content Include="UI\assets\scss\components\_checkbox-radio.scss" />
+    <Content Include="UI\assets\scss\components\_dropdown.scss" />
+    <Content Include="UI\assets\scss\components\_forms.scss" />
+    <Content Include="UI\assets\scss\components\_icons.scss" />
+    <Content Include="UI\assets\scss\components\_lists.scss" />
+    <Content Include="UI\assets\scss\components\_preview.scss" />
+    <Content Include="UI\assets\scss\components\_tables.scss" />
+    <Content Include="UI\assets\scss\components\_todo-list.scss" />
+    <Content Include="UI\assets\scss\landing-screens\_auth.scss" />
+    <Content Include="UI\assets\scss\mixins\_animation.scss" />
+    <Content Include="UI\assets\scss\mixins\_background.scss" />
+    <Content Include="UI\assets\scss\mixins\_badges.scss" />
+    <Content Include="UI\assets\scss\mixins\_blockqoute.scss" />
+    <Content Include="UI\assets\scss\mixins\_breadcrumbs.scss" />
+    <Content Include="UI\assets\scss\mixins\_buttons.scss" />
+    <Content Include="UI\assets\scss\mixins\_cards.scss" />
+    <Content Include="UI\assets\scss\mixins\_misc.scss" />
+    <Content Include="UI\assets\scss\mixins\_pagination.scss" />
+    <Content Include="UI\assets\scss\mixins\_popovers.scss" />
+    <Content Include="UI\assets\scss\mixins\_text.scss" />
+    <Content Include="UI\assets\scss\mixins\_tooltips.scss" />
+    <Content Include="UI\assets\scss\style.scss" />
+    <Content Include="UI\assets\scss\_dashboard.scss" />
+    <Content Include="UI\assets\scss\_demo.scss" />
+    <Content Include="UI\assets\scss\_fonts.scss" />
+    <Content Include="UI\assets\scss\_footer.scss" />
+    <Content Include="UI\assets\scss\_functions.scss" />
+    <Content Include="UI\assets\scss\_layouts.scss" />
+    <Content Include="UI\assets\scss\_misc.scss" />
+    <Content Include="UI\assets\scss\_navbar.scss" />
+    <Content Include="UI\assets\scss\_reset.scss" />
+    <Content Include="UI\assets\scss\_sidebar.scss" />
+    <Content Include="UI\assets\scss\_typography.scss" />
+    <Content Include="UI\assets\scss\_utilities.scss" />
+    <Content Include="UI\assets\scss\_variables.scss" />
+    <Content Include="UI\assets\scss\_vertical-wrapper.scss" />
+    <Content Include="UI\assets\scss\_widget-grid.scss" />
+    <Content Include="UI\assets\vendors\js\bootstrap.min.js.map" />
+    <Content Include="UI\assets\vendors\mdi\css\materialdesignicons.min.css.map" />
+    <Content Include="UI\assets\vendors\mdi\fonts\materialdesignicons-webfont.eot" />
+    <Content Include="UI\assets\vendors\mdi\fonts\materialdesignicons-webfont.ttf" />
+    <Content Include="UI\assets\vendors\mdi\fonts\materialdesignicons-webfont.woff" />
+    <Content Include="UI\assets\vendors\mdi\fonts\materialdesignicons-webfont.woff2" />
+    <Content Include="UI\fonts\elegant-theme-line.eot" />
+    <Content Include="UI\fonts\elegant-theme-line.ttf" />
+    <Content Include="UI\fonts\elegant-theme-line.woff" />
+    <Content Include="UI\fonts\flexslider-icon.eot" />
+    <Content Include="UI\fonts\flexslider-icon.ttf" />
+    <Content Include="UI\fonts\flexslider-icon.woff" />
+    <Content Include="UI\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="UI\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="UI\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="UI\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60730</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44361/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

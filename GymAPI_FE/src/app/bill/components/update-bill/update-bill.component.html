@@ -1,0 +1,31 @@
+<h1 mat-dialog-title>Hóa đơn</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Mã hóa đơn </mat-label>
+    <input matInput [(ngModel)]="bill.name">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Mã thẻ</mat-label>
+    <input matInput [(ngModel)]="bill.cardId">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Tổng tiền</mat-label>
+    <input matInput [(ngModel)]="bill.money">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Trạng thái</mat-label>
+    <input matInput [(ngModel)]="bill.statusPay">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="bill.dateCreated">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="bill.dateModified">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="true">Hủy bỏ</button>
+  <button mat-button cdkFocusInitial (click)="updateBill()">Xác nhận</button>
+</div>

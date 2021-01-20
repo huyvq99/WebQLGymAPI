@@ -1,0 +1,35 @@
+<h1 mat-dialog-title>Danh mục loại thẻ</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Tên </mat-label>
+    <input matInput [(ngModel)]="cardType.nameType">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Mô tả</mat-label>
+    <input matInput [(ngModel)]="cardType.description">
+  </mat-form-field>
+  <mat-form-field color="accent" appearance="fill">
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [matDatepicker]="picker1" [(ngModel)]="cardType.dateCreated">
+    <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+    <mat-datepicker #picker1></mat-datepicker>
+  </mat-form-field>
+  <!-- <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="cardType.dateCreated">
+  </mat-form-field> -->
+  <!-- <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="cardType.dateModified">
+  </mat-form-field> -->
+  <mat-form-field color="accent" appearance="fill">
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [matDatepicker]="picker2" [(ngModel)]="cardType.dateModified">
+    <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+    <mat-datepicker #picker2></mat-datepicker>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="true">Hủy bỏ</button>
+  <button mat-button cdkFocusInitial (click)="createCardType()">Xác nhận</button>
+</div>

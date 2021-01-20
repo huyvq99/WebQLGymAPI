@@ -1,0 +1,410 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody\\Foody.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Application\\TKGym.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Application\\TKGym.Application.csproj",
+        "projectName": "TKGym.Application",
+        "projectPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Application\\TKGym.Application.csproj",
+        "packagesPath": "C:\\Users\\Huy_Cute\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Huy_Cute\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data.EF\\TKGymManager.Data.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data.EF\\TKGymManager.Data.EF.csproj",
+        "projectName": "TKGymManager.Data.EF",
+        "projectPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data.EF\\TKGymManager.Data.EF.csproj",
+        "packagesPath": "C:\\Users\\Huy_Cute\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Huy_Cute\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data\\TKGymManager.Data.csproj": {
+                "projectPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data\\TKGymManager.Data.csproj"
+              },
+              "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Infrastructure\\TKGym.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Infrastructure\\TKGym.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data\\TKGymManager.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data\\TKGymManager.Data.csproj",
+        "projectName": "TKGymManager.Data",
+        "projectPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data\\TKGymManager.Data.csproj",
+        "packagesPath": "C:\\Users\\Huy_Cute\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Huy_Cute\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Infrastructure\\TKGym.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Infrastructure\\TKGym.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Infrastructure\\TKGym.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Infrastructure\\TKGym.Infrastructure.csproj",
+        "projectName": "TKGym.Infrastructure",
+        "projectPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Infrastructure\\TKGym.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Huy_Cute\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Huy_Cute\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody\\Foody.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody\\Foody.csproj",
+        "projectName": "Foody",
+        "projectPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody\\Foody.csproj",
+        "packagesPath": "C:\\Users\\Huy_Cute\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Huy_Cute\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Application\\TKGym.Application.csproj": {
+                "projectPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Application\\TKGym.Application.csproj"
+              },
+              "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data.EF\\TKGymManager.Data.EF.csproj": {
+                "projectPath": "C:\\Users\\Huy_Cute\\Desktop\\KhoaHocLapTrinh_K1-2020-11-16-CRUD\\2020-11-16-CRUD-BE\\Foody\\Foody.Data.EF\\TKGymManager.Data.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

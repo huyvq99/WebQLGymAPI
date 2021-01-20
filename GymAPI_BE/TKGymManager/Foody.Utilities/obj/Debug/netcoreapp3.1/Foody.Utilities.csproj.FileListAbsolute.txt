@@ -1,0 +1,9 @@
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Utilities\bin\Debug\netcoreapp3.1\Foody.Utilities.deps.json
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Utilities\bin\Debug\netcoreapp3.1\Foody.Utilities.dll
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Utilities\bin\Debug\netcoreapp3.1\Foody.Utilities.pdb
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Utilities\obj\Debug\netcoreapp3.1\Foody.Utilities.AssemblyInfoInputs.cache
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Utilities\obj\Debug\netcoreapp3.1\Foody.Utilities.AssemblyInfo.cs
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Utilities\obj\Debug\netcoreapp3.1\Foody.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Utilities\obj\Debug\netcoreapp3.1\Foody.Utilities.dll
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Utilities\obj\Debug\netcoreapp3.1\Foody.Utilities.pdb
+C:\Users\Huy_Cute\Desktop\KhoaHocLapTrinh_K1-2020-11-16-CRUD\2020-11-16-CRUD-BE\Foody\Foody.Utilities\obj\Debug\netcoreapp3.1\Foody.Utilities.csprojAssemblyReference.cache

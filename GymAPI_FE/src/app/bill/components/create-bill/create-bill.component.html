@@ -1,0 +1,38 @@
+<h1 mat-dialog-title>Hóa đơn</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Mã hóa đơn </mat-label>
+    <input matInput [(ngModel)]="bills.name">
+  </mat-form-field>
+  <!-- <mat-form-field>
+    <mat-label>Mã thẻ </mat-label>
+    <input matInput [(ngModel)]="bills.cardId">
+  </mat-form-field> -->
+  <mat-form-field>
+    <mat-label>Mã thẻ</mat-label>
+    <mat-select [(ngModel)]="selectedCard">
+      <mat-option *ngFor="let Card of Cards" [value]="Card.id"> 
+       {{Card.code}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Tiền </mat-label>
+    <input matInput [(ngModel)]="bills.money">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Trạng thái</mat-label>
+    <input matInput [(ngModel)]="bills.statusPay">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="bills.dateCreated">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Ngày tạo</mat-label>
+    <input matInput [(ngModel)]="bills.dateModified">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="true">Hủy bỏ</button>
+  <button mat-button cdkFocusInitial (click)="createBill()">Xác nhận</button>
+</div>
